@@ -1,5 +1,5 @@
 import DrumMachine from './components/DrumMachine';
-import { createGlobalStyle } from 'styled-components';
+import { GlobalStyle } from './components/styles/GlobalStyle.styled';
 
 export default function App() {
   return (
@@ -9,11 +9,3 @@ export default function App() {
     </>
   );
 }
-
-const GlobalStyle = createGlobalStyle`
-  body {
-    min-height: 100vh;
-    background-color: #1A2A33;
-    overflow: hidden;
-  }
-`;
