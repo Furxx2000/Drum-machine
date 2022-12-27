@@ -10,22 +10,22 @@ import ClosedHH from '../assets/Cev_H2.mp3';
 
 export const pads = [
   {
-    id: 'Heater 1',
+    id: 'Heater-1',
     text: 'Q',
     src: Heater1,
   },
   {
-    id: 'Heater 2',
+    id: 'Heater-2',
     text: 'W',
     src: Heater2,
   },
   {
-    id: 'Heater 3',
+    id: 'Heater-3',
     text: 'E',
     src: Heater3,
   },
   {
-    id: 'Heater 4',
+    id: 'Heater-4',
     text: 'A',
     src: Heater4,
   },
