@@ -14,6 +14,5 @@ export const GlobalStyle = createGlobalStyle`
     font-size: 16px;
     font-family: 'Outfit', sans-serif;
     font-weight: 500;
-    overflow: hidden;
   }
 `;
