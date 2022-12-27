@@ -18,4 +18,10 @@ const StyledDisplay = styled.p`
   font-weight: 700;
   letter-spacing: 1.5px;
   text-align: center;
+  transition: 0.05s ease;
+  cursor: pointer;
+
+  &:hover {
+    scale: 0.98;
+  }
 `;

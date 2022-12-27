@@ -22,9 +22,15 @@ const StyledPowerCtr = styled.div`
   border-radius: 10px;
   background-color: #31c3bd;
   box-shadow: 0px 4px 0px #118c87;
+  transition: 0.05s ease;
+  cursor: pointer;
 
   &:active {
     translate: 0 4px;
     box-shadow: none;
+  }
+
+  &:hover {
+    scale: 0.98;
   }
 `;

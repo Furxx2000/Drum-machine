@@ -28,12 +28,20 @@ const StyledVolumeCtr = styled.div`
     border-radius: 8px;
     background-color: #1f3641;
     outline: none;
-  }
 
-  &::-webkit-slider-thumb {
-    -webkit-appearance: none;
-    position: relative;
-    width: 15px;
-    height: 15px;
+    &::-webkit-slider-thumb {
+      appearance: none;
+      width: 20px;
+      height: 20px;
+      border-radius: 50%;
+      background-color: #dbe8ed;
+      transition: background 0.15s ease;
+      cursor: pointer;
+
+      &:hover {
+        scale: 1.05;
+        background-color: #a8bfc9;
+      }
+    }
   }
 `;
