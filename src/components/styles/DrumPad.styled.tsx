@@ -11,6 +11,7 @@ export const StyledDrumPad = styled.button`
   border-radius: 10px;
   background-color: #1f3641;
   box-shadow: 0px 8px 0px #10212a;
+  -webkit-tap-highlight-color: transparent;
   transition: all 0.05s ease;
   cursor: pointer;
 
