@@ -2,8 +2,7 @@ import styled from 'styled-components';
 
 export const StyledDrumPad = styled.button`
   appearance: none;
-  width: 96px;
-  height: 96px;
+  padding: 1.5rem;
   color: #a8bfc9;
   font-size: 32px;
   font-weight: 700;
